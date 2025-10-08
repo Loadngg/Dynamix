@@ -16,9 +16,7 @@ class GroupListWidget extends StatelessWidget {
         final groups = viewModel.groups;
 
         if (groups.isEmpty) {
-          return const Expanded(
-            child: Center(child: Text('Группы ещё не добавлены')),
-          );
+          return const Text('Группы ещё не добавлены');
         }
 
         final theme = Theme.of(context);

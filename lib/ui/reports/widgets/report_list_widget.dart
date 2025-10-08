@@ -19,9 +19,7 @@ class ReportListWidget extends StatelessWidget {
             final reports = viewModel.reports;
 
             if (reports.isEmpty) {
-              return const Expanded(
-                child: Center(child: Text('Записи ещё не добавлены')),
-              );
+              return const Text('Записи ещё не добавлены');
             }
 
             final theme = Theme.of(context);

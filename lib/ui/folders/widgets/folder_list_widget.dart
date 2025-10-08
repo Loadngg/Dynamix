@@ -16,7 +16,7 @@ class FolderListWidget extends StatelessWidget {
         final folders = viewModel.folders;
 
         if (folders.isEmpty) {
-          return const Expanded(child: Center(child: Text('Нет папок')));
+          return const Text('Нет папок');
         }
 
         final theme = Theme.of(context);
