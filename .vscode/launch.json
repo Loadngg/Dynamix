@@ -1,0 +1,25 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "debug",
+			"request": "launch",
+			"type": "dart",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"name": "profile",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "profile",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"name": "release",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "release",
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
